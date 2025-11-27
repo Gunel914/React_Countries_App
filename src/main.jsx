@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   
-    <BrowserRouter>
+    <BrowserRouter basename="/React_Countries_App/">
       <CountriesProvider>
         <App />
       </CountriesProvider>
